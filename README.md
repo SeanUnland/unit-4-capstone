@@ -10,6 +10,8 @@ I will be building a web based drum sequencer/sampler and synth application usin
 
 ## Wireframe
 
+[React Architecture](https://i.imgur.com/8rnVH0n.jpg)
+
 ### MVP
 
 A functional and interactive drum sequencer/sampler.
