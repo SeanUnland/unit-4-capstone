@@ -1,14 +1,102 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React from "react";
+import SequenceRow from "./SequenceRow";
 import * as Tone from "tone";
 
-// import PropTypes from "prop-types";
-
-const synth = new Tone.Synth().toDestination();
-
-synth.triggerAttackRelease("C4", "8n");
-
 const DrumSequencer = (props) => {
-  return <div>{synth}</div>;
+  return (
+    <div className="stepSequence">
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="0"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="1"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="2"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="3"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="4"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="5"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="6"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="7"
+      />
+      <SequenceRow
+        checked={props.checked}
+        onToggle={props.onToggle}
+        sequenceLength={props.sequenceLength}
+        onPitchSelect={props.onPitchSelect}
+        notes={props.notes}
+        pitchConversion={props.pitchConversion}
+        isActive={props.isActive}
+        row="8"
+      />
+    </div>
+  );
 };
 
 export default DrumSequencer;
