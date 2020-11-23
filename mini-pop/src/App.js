@@ -4,6 +4,7 @@ import SampleLibrary from "./Components/SampleLibrary";
 import Synth from "./Components/Synth";
 import Transport from "./Components/Transport";
 import Header from "./Components/DrumSequencer";
+import _ from "lodash";
 import { motion } from "framer-motion";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {

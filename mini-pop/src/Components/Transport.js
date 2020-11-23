@@ -6,7 +6,6 @@ import TapTempo from "./TapTempo";
 import DisplayTempo from "./DisplayTempo";
 import Tempo from "./Tempo";
 import * as Tone from "tone";
-import { Time } from "tone";
 
 const Transport = (props) => {
   return (
