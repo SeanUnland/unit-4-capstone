@@ -12,7 +12,7 @@ import {
   faStop,
   faRecycle,
   faInfoCircle,
-} from "@fortawesome/fontawesome-svg-core";
+} from "@fortawesome/free-solid-svg-icons";
 import StarAudioContext from "startaudiocontext";
 import * as Tone from "tone";
 import "./App.css";
